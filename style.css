@@ -158,6 +158,10 @@ header {
     height: 350px;
 }
 
+.imgbox img:hover {
+    opacity: 0.9;
+}
+
 .show-img-bg {
     background-color: rgb(0, 0, 0);
     position: fixed;
