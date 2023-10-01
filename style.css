@@ -178,8 +178,7 @@ header {
 }
 
 .show-img img {
-    height: auto;
-    min-width: 50vw;
+    height: 500px;
     background-color: #efefef;
     border-radius: 10px;
 }
@@ -196,6 +195,30 @@ footer {
 footer span {
     color: white;
     font-size: 20px;
+}
+
+@media(max-width: 950px) {
+    .show-img img {
+        height: 400px;
+    }
+}
+
+@media(max-width: 765px) {
+    .show-img img {
+        height: 300px;
+    }
+}
+
+@media(max-width: 600px) {
+    .show-img img {
+        height: 200px;
+    }
+}
+
+@media(max-width: 400px) {
+    .show-img img {
+        height: 150px;
+    }
 }
 
 @media(max-width: 650px) {
