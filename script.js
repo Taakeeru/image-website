@@ -8,12 +8,17 @@ let images = ['./img/img1.jpg', './img/img2.jpg', './img/img3.jpg', './img/img4.
 function load() {
     for (let i = 0; i < images.length; i++) {
         document.getElementById('content').innerHTML += /*html*/`
-        <div onclick="showImage(${i})" class="imgbox">
-            <img src="${images[i]}" alt="Bild">
-        </div>`;
+                <div onclick="showImage(${i})" class="imgbox">
+                    <img src="${images[i]}" alt="Bild">
+                </div>`;
     }
 }
 
 function showImage(i) {
+    document.getElementById('show-img-bg').classList.remove('d-none');
+    document.getElementById('img').src = `${images[i]}`;
+}
 
+function closeImage() {
+    document.getElementById('show-img-bg').classList.add('d-none');
 }

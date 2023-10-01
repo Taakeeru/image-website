@@ -77,12 +77,16 @@ h1 {
 header {
     border-bottom: 2px solid #efefef;
     margin-bottom: 6px;
-    margin-top: o;
+    margin-top: 0;
 }
 
 .flex {
     display: flex;
     align-items: center;
+}
+
+.d-none {
+    display: none !important;
 }
 
 .header-box {
@@ -141,6 +145,10 @@ header {
     align-items: center;
 }
 
+.content img {
+    cursor: pointer;
+}
+
 .imgbox {
     margin: 3px 5px;
 }
@@ -148,6 +156,32 @@ header {
 .imgbox img {
     object-fit: cover;
     height: 350px;
+}
+
+.show-img-bg {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+.show-img img {
+    height: auto;
+    min-width: 50vw;
+    background-color: #efefef;
+    border-radius: 10px;
 }
 
 footer {
