@@ -1,266 +1,318 @@
 /* poppins-200 - latin */
 @font-face {
-    font-display: swap;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 200;
-    src: url("../fonts/poppins-v20-latin-200.woff2") format("woff2");
-  }
-  
-  /* poppins-300 - latin */
-  @font-face {
-    font-display: swap;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 300;
-    src: url("../fonts/poppins-v20-latin-300.woff2") format("woff2");
-  }
-  
-  /* poppins-regular - latin */
-  @font-face {
-    font-display: swap;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2");
-  }
-  /* poppins-500 - latin */
-  @font-face {
-    font-display: swap;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 500;
-    src: url("../fonts/poppins-v20-latin-500.woff2") format("woff2");
-  }
-  /* poppins-600 - latin */
-  @font-face {
-    font-display: swap;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    src: url("../fonts/poppins-v20-latin-600.woff2") format("woff2");
-  }
-  /* poppins-700 - latin */
-  @font-face {
-    font-display: swap;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
-    src: url("../fonts/poppins-v20-latin-700.woff2") format("woff2");
-  }
-  /* poppins-800 - latin */
-  @font-face {
-    font-display: swap;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 800;
-    src: url("../fonts/poppins-v20-latin-800.woff2") format("woff2");
-  }
-  /* poppins-900 - latin */
-  @font-face {
-    font-display: swap;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 900;
-    src: url("../fonts/poppins-v20-latin-900.woff2") format("woff2");
-  }
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/poppins-v20-latin-200.woff2") format("woff2");
+}
+
+/* poppins-300 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/poppins-v20-latin-300.woff2") format("woff2");
+}
+
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2");
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v20-latin-500.woff2") format("woff2");
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v20-latin-600.woff2") format("woff2");
+}
+/* poppins-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v20-latin-700.woff2") format("woff2");
+}
+/* poppins-800 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/poppins-v20-latin-800.woff2") format("woff2");
+}
+/* poppins-900 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/poppins-v20-latin-900.woff2") format("woff2");
+}
 
 body {
-    margin: 0;
-    font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
-    margin: 0;
+  margin: 0;
 }
 
 header {
-    border-bottom: 2px solid #efefef;
-    margin-bottom: 6px;
-    margin-top: 0;
+  border-bottom: 2px solid #efefef;
+  margin-bottom: 6px;
+  margin-top: 0;
 }
 
 .flex {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .d-none {
-    display: none !important;
+  display: none !important;
 }
 
 .header-box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px 30px;
-    padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 30px;
+  padding: 10px;
 }
 
 .header-left {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .header-right {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .header-icons {
-    height: 30px;
-    width: 30px;
-    margin-right: 15px;
-    padding: 5px;
-    border-radius: 20px;
-    cursor: pointer;
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .header-icons:hover {
-    background-color: #efefef;
+  background-color: #efefef;
 }
 
 .header-logo {
-    height: 40px;
-    width: 40px;
-    margin-right: 10px;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
 }
 
 .header-profile {
-    height: 40px;
-    width: 40px;
-    border-radius: 30px;
-    padding: 5px;
-    cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  padding: 5px;
+  cursor: pointer;
 }
 
 .header-profile:hover {
-    background-color: #efefef;
+  background-color: #efefef;
 }
 
 .content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .content img {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .imgbox {
-    margin: 3px 5px;
+  margin: 3px 5px;
 }
 
 .imgbox img {
-    object-fit: cover;
-    height: 350px;
+  object-fit: cover;
+  height: 350px;
 }
 
 .imgbox img:hover {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 .show-img-bg {
-    background-color: rgb(0, 0, 0);
-    position: fixed;
-    z-index: 99;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: fadeIn 0.5s;
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.5s;
 }
 
 @keyframes fadeIn {
-    0% { opacity: 0;}
-    100% { opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .show-img img {
-    height: 500px;
-    background-color: #efefef;
-    border-radius: 10px;
+  height: 500px;
+  background-color: #efefef;
+  border-radius: 10px;
+}
+
+.arrow-left {
+  z-index: 999;
+  background-color: #313131;
+  position: fixed;
+  top: 48%;
+  left: 20px;
+  /* bottom: 50%; */
+  height: 50px;
+  border-radius: 25px;
+}
+
+.arrow-left:hover {
+  background-color: #6e6d6d;
+  cursor: pointer;
+}
+
+.arrow-right {
+  z-index: 999;
+  background-color: #313131;
+  position: fixed;
+  top: 48%;
+  right: 20px;
+  /* bottom: 50%; */
+  height: 50px;
+  border-radius: 25px;
+}
+
+.arrow-right:hover {
+  background-color: #6e6d6d;
+  cursor: pointer;
 }
 
 footer {
-    height: 150px;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3px;
+  height: 150px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
 }
 
 footer span {
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
 
-@media(max-width: 950px) {
-    .show-img img {
-        height: 400px;
-    }
+@media (max-width: 1075px) {
+  .show-img img {
+    height: 400px;
+  }
 }
 
-@media(max-width: 765px) {
-    .show-img img {
-        height: 300px;
-    }
+@media (max-width: 895px) {
+  .show-img img {
+    height: 300px;
+  }
 }
 
-@media(max-width: 600px) {
-    .show-img img {
-        height: 200px;
-    }
+@media (max-width: 720px) {
+  .show-img img {
+    height: 200px;
+  }
+
+  .arrow-left {
+    height: 35px;
+    top: 49%;
+  }
+
+  .arrow-right {
+    height: 35px;
+    top: 49%;
+  }
 }
 
-@media(max-width: 400px) {
-    .show-img img {
-        height: 150px;
-    }
+@media (max-width: 650px) {
+  .first-icon {
+    display: none;
+  }
+
+  .icon-grp {
+    display: none;
+  }
+
+  .imgbox img {
+    height: 300px;
+  }
 }
 
-@media(max-width: 650px) {
-    .first-icon {
-        display: none;
-    }
-
-    .icon-grp {
-        display: none;
-    }
-
-    .imgbox img {
-        height: 300px;
-    }
+@media (max-width: 560px) {
+  .imgbox img {
+    height: 250px;
+  }
 }
 
-@media(max-width: 560px) {
-    .imgbox img {
-        height: 250px;
-    }
+@media (max-width: 510px) {
+  .show-img img {
+    height: 150px;
+  }
 }
 
-@media(max-width: 465px) {
-    .imgbox img {
-        height: 200px;
-    }
+@media (max-width: 465px) {
+  .imgbox img {
+    height: 200px;
+  }
 }
 
-@media(max-width: 375px) {
-    .header-box {
-        margin: 0px 10px;
-    }
+@media (max-width: 420px) {
+  .show-img img {
+    height: 100px;
+  }
+}
 
-    .header-icons {
-        margin-right: 0px;
-    }
+@media (max-width: 375px) {
+  .header-box {
+    margin: 0px 10px;
+  }
 
-    .imgbox img {
-        height: 150px;
-    }
+  .header-icons {
+    margin-right: 0px;
+  }
+
+  .imgbox img {
+    height: 150px;
+  }
 }
