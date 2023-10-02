@@ -34,6 +34,11 @@ function closeImage(event) {
 }
 
 
+function closeImageWithEsc() {
+    document.getElementById("show-img-bg").classList.add("d-none");
+}
+
+
 function nextImage() {
   currentImage = (currentImage + 1) % images.length;
 
@@ -50,7 +55,7 @@ function previousImage() {
 
 document.onkeyup = function handleKeyPress(event) {
   if (event.key === "Escape") {
-    return closeImage();
+    return closeImageWithEsc();
   }
 
   //Right Arrow Key
