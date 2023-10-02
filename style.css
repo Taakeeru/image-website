@@ -1,69 +1,4 @@
-/* poppins-200 - latin */
-@font-face {
-  font-display: swap;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 200;
-  src: url("../fonts/poppins-v20-latin-200.woff2") format("woff2");
-}
-
-/* poppins-300 - latin */
-@font-face {
-  font-display: swap;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/poppins-v20-latin-300.woff2") format("woff2");
-}
-
-/* poppins-regular - latin */
-@font-face {
-  font-display: swap;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2");
-}
-/* poppins-500 - latin */
-@font-face {
-  font-display: swap;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/poppins-v20-latin-500.woff2") format("woff2");
-}
-/* poppins-600 - latin */
-@font-face {
-  font-display: swap;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  src: url("../fonts/poppins-v20-latin-600.woff2") format("woff2");
-}
-/* poppins-700 - latin */
-@font-face {
-  font-display: swap;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/poppins-v20-latin-700.woff2") format("woff2");
-}
-/* poppins-800 - latin */
-@font-face {
-  font-display: swap;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 800;
-  src: url("../fonts/poppins-v20-latin-800.woff2") format("woff2");
-}
-/* poppins-900 - latin */
-@font-face {
-  font-display: swap;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 900;
-  src: url("../fonts/poppins-v20-latin-900.woff2") format("woff2");
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
   margin: 0;
@@ -72,6 +7,8 @@ body {
 
 h1 {
   margin: 0;
+  font-weight: 600;
+  color: rgb(54, 54, 54);
 }
 
 header {
@@ -237,31 +174,20 @@ footer span {
   font-size: 20px;
 }
 
-@media (max-width: 1075px) {
-  .show-img img {
-    height: 400px;
-  }
-}
-
-@media (max-width: 895px) {
-  .show-img img {
-    height: 300px;
-  }
-}
-
-@media (max-width: 720px) {
-  .show-img img {
-    height: 200px;
-  }
-
+@media (max-width: 1080px) {
   .arrow-left {
-    height: 35px;
-    top: 49%;
+    top: 76%;
+    left: 40%;
   }
 
   .arrow-right {
-    height: 35px;
-    top: 49%;
+    top: 76%;
+    right: 40%;
+  }
+
+  .show-img img {
+    height: auto;
+    width: 90vw;
   }
 }
 
@@ -277,17 +203,23 @@ footer span {
   .imgbox img {
     height: 300px;
   }
+
+  .arrow-left {
+    top: 66%;
+    left: 40%;
+    height: 35px;
+  }
+
+  .arrow-right {
+    top: 66%;
+    right: 40%;
+    height: 35px;
+  }
 }
 
 @media (max-width: 560px) {
   .imgbox img {
     height: 250px;
-  }
-}
-
-@media (max-width: 510px) {
-  .show-img img {
-    height: 150px;
   }
 }
 
@@ -297,9 +229,17 @@ footer span {
   }
 }
 
-@media (max-width: 420px) {
-  .show-img img {
-    height: 100px;
+@media (max-width: 400px) {
+  .arrow-left {
+    top: 60%;
+    left: 30%;
+    height: 35px;
+  }
+
+  .arrow-right {
+    top: 60%;
+    right: 30%;
+    height: 35px;
   }
 }
 
